@@ -1,0 +1,102 @@
+.CardFormacao{
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  height: 127px;
+  border-radius: 16px;
+  background-color: var(--fundo-card);
+  margin: 20px 0 20px 154px;
+}
+
+.Formacao {
+  padding-left: 20px;
+  padding-right: 10px;
+
+  .Title {
+    h2 {
+      color: var(--texto-primario);
+      padding: 10px 0 4px 10px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+}
+}
+
+.instituicao{
+    
+    display:flex ;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+
+    
+    h3{
+      color: var(--texto-primario);
+      padding: 10px 0 0 10px;
+      font-size: 20px;
+    }
+
+    span {
+    color: var(--texto-secundario);
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  
+  p {
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+}
+
+
+/*Estilo do card idiomas*/
+.CardIdiomas{
+
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  height: 178px;
+  border-radius: 16px;
+  background-color: var(--fundo-card);
+  margin: 20px 0 20px 154px;
+}
+
+.Idiomas {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  .Title {
+    h2{
+      color: var(--texto-primario);
+      padding: 10px 0 4px 10px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+    }
+
+    .Idioma1{
+        padding: 10px 1px;  
+        border-bottom: solid 1px white;
+    }
+    .Idioma2{
+        padding: 10px 0;
+    }
+
+
+    h3{
+    color: var(--texto-primario);
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+    p{
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+    }
+}

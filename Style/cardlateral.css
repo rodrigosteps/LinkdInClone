@@ -1,0 +1,128 @@
+.CardLateral {
+  margin-top: 20px;
+  width: 320px;
+  height: 546px;
+  background-color: var(--fundo-card);
+  border-radius: 16px;
+}
+
+.CardLateral img {
+  width: 48px;
+  height: 48px;
+}
+
+.Title h2 {
+  color: var(--texto-primario);
+  padding: 10px 0 10px 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.publi {
+  display: flex;
+  flex-direction: column;
+  width: 284px;
+  height: 83px;
+  border-width: 1px;
+  margin-bottom: 14px;
+}
+
+.Usuario {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 0 0 10px;
+
+  h3 {
+    color: var(--texto-primario);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  span {
+    color: var(--texto-secundario);
+    font-size: 12px;
+  }
+}
+
+button {
+  width: 154px;
+  height: 28px;
+  border: solid 2px var(--texto-secundario);
+  border-radius: 16px;
+  background-color: var(--fundo-card);
+  color: var(--texto-primario);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn {
+  margin: 0 auto;
+  gap: 20px;
+  padding: 4px;
+}
+
+
+/*card lateral 2*/
+
+.Lateral2 {
+  margin-top: 50px;
+  width: 320px;
+  height: 546px;
+  background-color: var(--fundo-card);
+  border-radius: 16px;
+}
+
+.CardLateral img {
+  width: 48px;
+  height: 48px;
+}
+
+.Title h2 {
+  color: var(--texto-primario);
+  padding: 10px 0 10px 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.publi {
+  display: flex;
+  flex-direction: column;
+  width: 284px;
+  height: 83px;
+  border-width: 1px;
+  margin-bottom: 14px;
+}
+
+.Usuario {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 0 0 10px;
+
+  h3 {
+    color: var(--texto-primario);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  span {
+    color: var(--texto-secundario);
+    font-size: 12px;
+  }
+}
+
+button {
+  width: 154px;
+  height: 28px;
+  border: solid 2px var(--texto-secundario);
+  border-radius: 16px;
+  background-color: var(--fundo-card);
+  color: var(--texto-primario);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn {
+  margin: 0 auto;
+  gap: 20px;
+  padding: 4px;
+}

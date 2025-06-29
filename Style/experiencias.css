@@ -1,0 +1,87 @@
+.CardExperiencias {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  height: 358px;
+  border-radius: 16px;
+  background-color: var(--fundo-card);
+  margin: 20px 0 20px 154px;
+}
+
+.Experiencias {
+  padding-left: 20px;
+  padding-right: 10px;
+
+  .Title {
+    h2 {
+      color: var(--texto-primario);
+      padding: 10px 0 4px 10px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+
+  .Empresa {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0 4px 10px;
+
+    span {
+      color: var(--texto-secundario);
+      font-weight: 400;
+      font-size: 12px;
+    }
+    p {
+      color: var(--texto-secundario);
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+}
+
+.Cargos {
+  display: flex;
+
+  .marker {
+    margin-top: 10px;
+  }
+  .marker span {
+    font-size: 20px;
+  }
+
+  .marker p {
+    margin-left: 25px;
+    margin-bottom: 16px;
+    height: 40px;
+    border-left: solid 1px white;
+  }
+
+  .Exp {
+    color: var(--texto-primario);
+    padding: 10px 0 4px 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  h2 {
+    color: var(--texto-primario);
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  strong {
+    color: var(--texto-secundario);
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  span,
+  p {
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 20px;
+  }
+}

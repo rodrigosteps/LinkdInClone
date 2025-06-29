@@ -1,0 +1,32 @@
+@import url(/LinkdInClone/Style/reset.css);
+@import url(/LinkdInClone/Style/perfil.css);
+@import url(/LinkdInClone/Style/nav.css);
+@import url(/LinkdInClone/Style/destaques.css);
+@import url(/LinkdInClone/Style/atividade&Sobre.css);
+@import url(/LinkdInClone/Style/experiencias.css);
+@import url(/LinkdInClone/Style/formacaoeidiomas.css);
+@import url(/LinkdInClone/Style/cardlateral.css);
+
+:root {
+  --fundo-card: #1b2226;
+  --texto-primario: rgba(255, 255, 255, 0.9);
+  --texto-secundario: #ffffff99;
+  --links: rgba(255, 255, 255, 0.6);
+  --background-color: rgba(0, 0, 0, 1);
+}
+
+body,
+html {
+  width: 100%;
+  font-family: "roboto";
+  background-color: var(--background-color);
+}
+
+main {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 20px;
+}
+    
+
+

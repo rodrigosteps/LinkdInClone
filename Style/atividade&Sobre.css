@@ -1,0 +1,148 @@
+.CardAtividades {
+  display: flex;
+  flex-direction: column;
+  width: 780px;
+  height: 371px;
+  border-radius: 16px;
+  background-color: var(--fundo-card);
+  margin: 20px 0 20px 154px;
+}
+
+.Atividades {
+  padding-left: 20px;
+  padding-right: 10px;
+
+  .Title {
+    h2 {
+      color: var(--texto-primario);
+      padding: 10px 0 4px 10px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 14px;
+      color: rgba(112, 181, 249, 1);
+      padding-left: 10px;
+    }
+  }
+
+  .Usuario1 {
+    display: flex;
+    gap: 6px;
+    color: var(--texto-secundario);
+    padding: 6px 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .Atividade1 {
+    display: flex;
+    gap: 4px;
+    color: var(--texto-primario);
+    padding: 6px 10px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .Engajamento img {
+    width: 32px;
+    height: auto;
+    padding: 0;
+  }
+
+  .Engajamento {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+    padding: 0 20px 0 10px;
+
+    .Contagem {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    p {
+      color: var(--texto-secundario);
+      padding: 6px 10px;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+
+  .Usuario2 {
+    display: flex;
+    gap: 6px;
+    color: var(--texto-secundario);
+    padding: 16px 10px 0 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .Atividade2 {
+    display: flex;
+    gap: 4px;
+    color: var(--texto-primario);
+    padding: 6px 10px;
+    font-weight: 400;
+    font-size: 14px;
+
+    p {
+      padding-top: 6px;
+    }
+  }
+
+  .Engajamento2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 10px;
+
+    .Contagem {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    p {
+      color: var(--texto-secundario);
+      padding: 6px 10px;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+}
+
+.Mais {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: solid 1px white;
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--texto-secundario);
+}
+
+
+.Sobre{
+width: 780px;
+height: 134px;
+border-radius: 16px;
+margin: 20px 0 20px 154px;
+background-color: var(--fundo-card);
+padding-left:20px;
+
+h2{
+      color: var(--texto-primario);
+      padding: 10px 0 4px 10px;
+      font-weight: 600;
+      font-size: 20px;
+}
+
+   p{ color: var(--texto-primario);
+    padding: 6px 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+}

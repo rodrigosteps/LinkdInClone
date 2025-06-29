@@ -1,0 +1,126 @@
+
+.Perfil {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 154px;
+  width: 780px;
+  height: 500px;
+  background-color: var(--fundo-card);
+  border-radius: 16px;
+
+  .PerfilImg {
+    position: relative;
+    top: -112px;
+    padding: 8px 24px 0;
+    width: 180px;
+  }
+  .PerfilImg img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: solid 4px #1b2226;
+    border-radius: 50%;
+  }
+
+  .Infos {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: -110px;
+    margin-left: 24px;
+    width: 400px;
+
+    h1 {
+      font-size: 24px;
+      color: var(--texto-primario);
+    }
+
+    span {
+      font-size: 16px;
+      color: var(--texto-primario);
+    }
+    p {
+      font-size: 14px;
+      color: var(--texto-secundario);
+    }
+  }
+
+  .LclECtt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    margin-top: 12px;
+    margin-left: 24px;
+    width: 400px;
+
+    p {
+      font-size: 14px;
+      color: var(--texto-secundario);
+    }
+
+    .Dot {
+        font-size: 10px;
+      color: var(--texto-secundario);
+    }
+
+    .Contato, span {
+      font-family: Roboto;
+      font-size: 14px;
+      color: rgba(112, 181, 249, 1);
+    }
+  }
+
+  .buttons{
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+     margin-left: 12px;
+
+     .btn1{
+    width: 128px;
+    height: 32px;
+    border:solid 1px rgba(112, 181, 249, 1);
+    border-radius: 16px;
+    background-color: rgba(112, 181, 249, 1);
+    color: var(--fundo-card);
+    font-size: 14px;
+    font-weight: 600;
+    }
+
+    .btn2{
+    width: 128px;
+    height: 32px;
+    border:solid 1px rgba(112, 181, 249, 1);
+    border-radius: 16px;
+    background-color:var(--fundo-card);
+    color: rgba(112, 181, 249, 1);
+    font-size: 14px;
+    font-weight: 600;
+    }
+
+    .btn1, .btn2:hover{
+      cursor: pointer;
+    }
+}
+
+  .LinksInfos img {
+    padding-right: 14px;
+  }
+
+  .LinksInfos {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 300px;
+    margin-left: -280px;
+    color: var(--texto-primario);
+    gap: 8px;
+  }
+
+  a:visited{
+    color: rgba(112, 181, 249, 1);
+  }
+}
