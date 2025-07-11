@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  margin-left: 154px;
+  margin-left: 100px;
   width: 780px;
   height: 500px;
   background-color: var(--fundo-card);
@@ -124,3 +124,4 @@
     color: rgba(112, 181, 249, 1);
   }
 }
+

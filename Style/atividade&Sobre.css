@@ -5,7 +5,7 @@
   height: 371px;
   border-radius: 16px;
   background-color: var(--fundo-card);
-  margin: 20px 0 20px 154px;
+  margin: 20px 0 20px 100px;
 }
 
 .Atividades {
@@ -129,7 +129,7 @@
 width: 780px;
 height: 134px;
 border-radius: 16px;
-margin: 20px 0 20px 154px;
+margin: 20px 0 20px 100px;
 background-color: var(--fundo-card);
 padding-left:20px;
 
