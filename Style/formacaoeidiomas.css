@@ -100,3 +100,14 @@
     padding-left: 10px;
     }
 }
+
+footer img{
+  width: 280px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100px;
+}
